@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# ======================
+# Data Science additions
+# ======================
+
+# Data folders
+data/raw/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & artifacts
+models/
+*.pkl
+*.joblib
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
